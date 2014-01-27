@@ -341,7 +341,7 @@ public class Vault extends JavaPlugin {
         hookEconomy("Sakuracoinish", Economy_Sakuracoinish.class, ServicePriority.Normal, "me.meta1203.plugins.sakuracoin.Sakuracoinish");
 
         // Try to load Monacoinish
-        hookEconomy("Monacoinish", Economy_Sakuracoinish.class, ServicePriority.Normal, "me.meta1203.plugins.monacoin.Monacoinish");
+        hookEconomy("Monacoinish", Economy_Monacoinish.class, ServicePriority.Normal, "me.meta1203.plugins.monacoin.Monacoinish");
     }
 
     /**
