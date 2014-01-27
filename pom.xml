@@ -391,6 +391,13 @@ Vault currently supports the following: Permissions 3, PEX, GroupManager, bPerms
 			<scope>system</scope>
 			<systemPath>${project.basedir}/lib/DigiCoin.jar</systemPath>
 		</dependency>
+		<dependency>
+			<groupId>me.meta1203.plugins.sakuracoin</groupId>
+			<artifactId>Sakuracoinish</artifactId>
+			<version>1.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/lib/Sakuracoinish-1.0.jar</systemPath>
+		</dependency>
 		<!-- Test Dependency -->
 		<dependency>
 		    <groupId>junit</groupId>

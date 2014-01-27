@@ -67,6 +67,7 @@ import net.milkbowl.vault.economy.plugins.Economy_iConomy5;
 import net.milkbowl.vault.economy.plugins.Economy_iConomy6;
 import net.milkbowl.vault.economy.plugins.Economy_SDFEconomy;
 import net.milkbowl.vault.economy.plugins.Economy_Minefaconomy;  
+import net.milkbowl.vault.economy.plugins.Economy_Sakuracoinish;
 import net.milkbowl.vault.permission.Permission;
 import net.milkbowl.vault.permission.plugins.Permission_DroxPerms;
 import net.milkbowl.vault.permission.plugins.Permission_GroupManager;
@@ -334,6 +335,9 @@ public class Vault extends JavaPlugin {
         
         // Try to load DigiCoin
         hookEconomy("DigiCoin", Economy_DigiCoin.class, ServicePriority.Normal, "co.uk.silvania.cities.digicoin.DigiCoin");
+
+        // Try to load Sakuracoinish
+        hookEconomy("Sakuracoinish", Economy_Sakuracoinish.class, ServicePriority.Normal, "me.meta1203.plugins.sakuracoin.Sakuracoinish");
     }
 
     /**
