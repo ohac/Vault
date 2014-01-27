@@ -398,6 +398,13 @@ Vault currently supports the following: Permissions 3, PEX, GroupManager, bPerms
 			<scope>system</scope>
 			<systemPath>${project.basedir}/lib/Sakuracoinish-1.0.jar</systemPath>
 		</dependency>
+		<dependency>
+			<groupId>me.meta1203.plugins.monacoin</groupId>
+			<artifactId>Monacoinish</artifactId>
+			<version>1.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/lib/Monacoinish-1.0.jar</systemPath>
+		</dependency>
 		<!-- Test Dependency -->
 		<dependency>
 		    <groupId>junit</groupId>

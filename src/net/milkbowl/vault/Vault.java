@@ -68,6 +68,7 @@ import net.milkbowl.vault.economy.plugins.Economy_iConomy6;
 import net.milkbowl.vault.economy.plugins.Economy_SDFEconomy;
 import net.milkbowl.vault.economy.plugins.Economy_Minefaconomy;  
 import net.milkbowl.vault.economy.plugins.Economy_Sakuracoinish;
+import net.milkbowl.vault.economy.plugins.Economy_Monacoinish;
 import net.milkbowl.vault.permission.Permission;
 import net.milkbowl.vault.permission.plugins.Permission_DroxPerms;
 import net.milkbowl.vault.permission.plugins.Permission_GroupManager;
